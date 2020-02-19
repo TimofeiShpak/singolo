@@ -1,29 +1,29 @@
-@font-face{
-font-family: "Lato";
-src: url("assets/Lato-Bold.ttf");
-font-weight: bold;
-font-style: normal;
+@font-face {
+  font-family: "Lato";
+  src: url("assets/Lato-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
 }
 
-@font-face{
-font-family: "Lato";
-src: url("assets/Lato-Light.ttf");
-font-weight: normal;
-font-style: normal;
+@font-face {
+  font-family: "Lato";
+  src: url("assets/Lato-Light.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-@font-face{
-font-family: "Lato";
-src: url("assets/Lato-Black.ttf");
-font-weight: normal;
-font-style: italic;
+@font-face {
+  font-family: "Lato";
+  src: url("assets/Lato-Black.ttf");
+  font-weight: normal;
+  font-style: italic;
 }
 
-@font-face{
-font-family: "Lato";
-src: url("assets/Lato-Regular.ttf");
-font-weight: thin;
-font-style: italic;
+@font-face {
+  font-family: "Lato";
+  src: url("assets/Lato-Regular.ttf");
+  font-weight: thin;
+  font-style: italic;
 }
 
 * {
@@ -32,45 +32,44 @@ font-style: italic;
 }
 
 .header {
-margin: -1px 0 0 0;
-padding: 1px 0 0 0;
-width: 1020px;
-height: 89px;
-background-color: #2d303a;
+  margin: -1px 0 0 0;
+  padding: 1px 0 0 0;
+  width: 1020px;
+  height: 89px;
+  background-color: #2d303a;
 }
 
-.z{
-	color: #f06c64;
+.z {
+  color: #f06c64;
 }
 
 .singolo {
-background-color: #2d303a;
-font-size: 12.5px;
-line-height: 6px;
-color: #ffffff;
-font-family: "Lato";
-font-weight: bold;
-font-style: normal;
-text-align: left;
-padding-top: 40px;
-padding-left:40px;
-margin-top: 1px;
-letter-spacing: 0.001em;
+  background-color: #2d303a;
+  font-size: 12.5px;
+  line-height: 6px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-top: 1px;
+  letter-spacing: 0.001em;
 }
 
-
-.menu-bar{
-background-color: #2d303a;
-margin-right: 27px;
-font-size: 12px;
-line-height: 6px;
-font-family: "Lato";
-font-weight: 100;
-text-align: left;
+.menu-bar {
+  background-color: #2d303a;
+  margin-right: 27px;
+  font-size: 12px;
+  line-height: 6px;
+  font-family: "Lato";
+  font-weight: 100;
+  text-align: left;
 }
 
 ul.menu {
-	float: right;
+  float: right;
 }
 
 ul.menu li {
@@ -78,359 +77,360 @@ ul.menu li {
   margin-right: 13px;
   margin-bottom: 3px;
   color: #ffffff;
-   list-style: none;
-	font-stretch: inherit;
-	font-weight: bold;
-font-style: normal;
+  list-style: none;
+  font-stretch: inherit;
+  font-weight: bold;
+  font-style: normal;
 }
 
-ul.menu li:hover{
-	cursor:pointer;
-	color: #f06c64;
+ul.menu li:hover {
+  cursor: pointer;
+  color: #f06c64;
 }
 
 .white {
-	color: white;
+  color: white;
 }
 
 .header-bottom {
-position:absolute;
-width: 1020px;
-height: 6px;
-background-color: #323746;
-margin-top: 42px;
-z-index: 10;
+  position: absolute;
+  width: 1020px;
+  height: 6px;
+  background-color: #323746;
+  margin-top: 42px;
+  z-index: 10;
 }
 
-
 span.point:after {
-content: '\00B7';
-padding-right: 12px;
-color: #494e62;
+  content: '\00B7';
+  padding-right: 12px;
+  color: #494e62;
 }
 
 .slider {
-width: 1020px;
-height: 600px;
-background-color: #f06c64;
+  width: 1020px;
+  height: 600px;
+  background-color: #f06c64;
 }
 
-.slider-bottom{
-width: 1020px;
-height: 6px;
-background-color: #ea676b;
+.slider-bottom {
+  width: 1020px;
+  height: 6px;
+  background-color: #ea676b;
 }
 
 .left {
-	float: left;
-	margin-top: 284px;
-	margin-left: 39px;
-	border-radius: 100px; /* Радиус скругления */
-    border: 3px solid rgb(0,0,0,0.0); /* Параметры рамки */
+  float: left;
+  margin-top: 284px;
+  margin-left: 39px;
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid rgb(0, 0, 0, 0.0);
+  /* Параметры рамки */
 }
 
 .right {
-	float: right;
-	margin-right: 37px;
-	margin-top: 284px;
-	border-radius: 100px; /* Радиус скругления */
-    border: 3px solid rgb(0,0,0,0.0); /* Параметры рамки */
-
+  float: right;
+  margin-right: 37px;
+  margin-top: 284px;
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid rgb(0, 0, 0, 0.0);
+  /* Параметры рамки */
 }
 
-.left:hover, .right:hover{
-	cursor: pointer;
-	border-radius: 100px; /* Радиус скругления */
-    border: 3px solid #dbdc7e; /* Параметры рамки */
-    box-shadow: 0 0 7px #ccce3c;
+.left:hover,
+.right:hover {
+  cursor: pointer;
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid #dbdc7e;
+  /* Параметры рамки */
+  box-shadow: 0 0 7px #ccce3c;
 }
 
 .horizontal {
-	float: right;
-	margin-right: 52px;
-	padding-top: 179px;
+  float: right;
+  margin-right: 52px;
+  padding-top: 179px;
 }
 
 .base {
-	position: absolute;
-	z-index: 2;
+  position: absolute;
+  z-index: 2;
 }
 
 .shadow {
-	padding-top: 1px;
-	margin-left: 2px;
+  padding-top: 1px;
+  margin-left: 2px;
 }
 
 .screen {
-	position: absolute;
-	z-index: 3;
-	margin-left: 57px;
-	margin-top: 12px;
-	width:333px;
-	height: 188px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 57px;
+  margin-top: 12px;
+  width: 333px;
+  height: 188px;
 }
 
 .LayerH {
-	position: absolute;
-	z-index: 4;
-	overflow: hidden;
-	width:333px;
-	height: 188px;
-	margin-left: 58px;
-	margin-top: 12px;
-	border: 3px solid #c7c8c7;
-	background-image: url(assets/LayerH.svg);
-	background-position: 50.5% 30.4%;
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
+  width: 333px;
+  height: 188px;
+  margin-left: 58px;
+  margin-top: 12px;
+  border: 3px solid #c7c8c7;
+  background-image: url(assets/LayerH.svg);
+  background-position: 50.5% 30.4%;
 }
 
 .Speaker {
-	position: absolute;
-	z-index: 3;
-	margin-left: 417px;
-	margin-top: 90px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 417px;
+  margin-top: 90px;
 }
 
 .Circle {
-	position: absolute;
-	z-index: 3;
-	margin-left: 8px;
-	margin-top: 86px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 8px;
+  margin-top: 86px;
 }
 
 .Square {
-	position: absolute;
-	z-index: 4;
-	margin-left: 21px;
-	margin-top: 99px;
+  position: absolute;
+  z-index: 4;
+  margin-left: 21px;
+  margin-top: 99px;
 }
 
 .OuterCircle {
-	position: absolute;
-	z-index: 3;
-	margin-left: 431px;
-	margin-top: 100px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 431px;
+  margin-top: 100px;
 }
 
 .RedDot {
-	position: absolute;
-	z-index: 4;
-	margin-left: 434px;
-	margin-top: 98px;
+  position: absolute;
+  z-index: 4;
+  margin-left: 434px;
+  margin-top: 98px;
 }
 
 .vertical {
-	padding-left: 110px;
-	padding-top: 58px;
+  padding-left: 110px;
+  padding-top: 58px;
 }
 
 .baseV {
-	position: absolute;
-	z-index: 2;
+  position: absolute;
+  z-index: 2;
 }
 
 .screenV {
-	position: absolute;
-	z-index: 3;
-	margin-left: 12px;
-	margin-top: 64px;
-	height:333px;
-	width: 188px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 12px;
+  margin-top: 64px;
+  height: 333px;
+  width: 188px;
 }
 
 .layerV {
-	position: absolute;
-	z-index: 4;
-	margin-left: 13px;
-	margin-top: 63px;
-	overflow: hidden;
-	height:333px;
-	width: 188px;
-	border: 3px solid #c7c8c7;
-	background-image: url(assets/LayerV.svg);
-	background-position: 3.5% 54.7%;
+  position: absolute;
+  z-index: 4;
+  margin-left: 13px;
+  margin-top: 63px;
+  overflow: hidden;
+  height: 333px;
+  width: 188px;
+  border: 3px solid #c7c8c7;
+  background-image: url(assets/LayerV.svg);
+  background-position: 3.5% 54.7%;
 }
 
 .speakerV {
-	position: absolute;
-	z-index: 3;
-	margin-left: 91px;
-	margin-top: 30px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 91px;
+  margin-top: 30px;
 }
 
 .circleV {
-	position: absolute;
-	z-index: 3;
-	margin-left: 86px;
-	margin-top: 407px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 86px;
+  margin-top: 407px;
 }
 
 .SquareV {
-	position: absolute;
-	z-index: 4;
-	margin-left: 100px;
-	margin-top: 420px;
+  position: absolute;
+  z-index: 4;
+  margin-left: 100px;
+  margin-top: 420px;
 }
 
 .OuterCircleV {
-	position: absolute;
-	z-index: 3;
-	margin-left: 104px;
-	margin-top: 14px;
+  position: absolute;
+  z-index: 3;
+  margin-left: 104px;
+  margin-top: 14px;
 }
 
 .RedDotV {
-	position: absolute;
-	z-index: 4;
-	margin-left: 107px;
-	margin-top: 11px;
+  position: absolute;
+  z-index: 4;
+  margin-left: 107px;
+  margin-top: 11px;
 }
 
 .shadowV {
-	padding-top: 1px;
-	padding-left: 2px;
+  padding-top: 1px;
+  padding-left: 2px;
 }
 
-
-
-.title{
-font-size: 15px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato";
-font-weight: bold;
-font-style: normal;
-text-align: left;
-margin-top: 68px;
-margin-left: 40px;
+.title {
+  font-size: 15px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: bold;
+  font-style: normal;
+  text-align: left;
+  margin-top: 68px;
+  margin-left: 40px;
 }
 
 .description {
-width: 940px;
-height: 57px;
-font-size: 18px;
-line-height: 30px;
-color: #767e9e;
-font-family: "Lato";
-font-weight: normal;
-font-style: normal;
-text-align: justify;
-overflow: hidden;
-margin-left: 40px;
-margin-top: 28px;
+  width: 940px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: normal;
+  font-style: normal;
+  text-align: justify;
+  overflow: hidden;
+  margin-left: 40px;
+  margin-top: 28px;
 }
 
 .container {
-	margin-left: 40px;
-	margin-top: 47px;
-	width: 939px;
-	height: 88px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 19px;
-	grid-row-gap: 46px;
-	grid-template-rows: 1fr 1fr;
+  margin-left: 40px;
+  margin-top: 47px;
+  width: 939px;
+  height: 88px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 19px;
+  grid-row-gap: 46px;
+  grid-template-rows: 1fr 1fr;
 }
 
 .item {
-	width: 300px;
+  width: 300px;
 }
 
 .last {
-	width: 301px;
+  width: 301px;
 }
 
 .pen {
-	position: absolute;
-	z-index:2;
-	margin-left: 13px;
-	margin-top: 14px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 13px;
+  margin-top: 14px;
 }
 
 .bulb {
-	position: absolute;
-	z-index:2;
-	margin-left: 17px;
-	margin-top: 14px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 17px;
+  margin-top: 14px;
 }
 
 .heart {
-	position: absolute;
-	z-index:2;
-	margin-left: 13px;
-	margin-top: 15px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 13px;
+  margin-top: 15px;
 }
 
 .phone {
-	position: absolute;
-	z-index:2;
-	margin-left: 17px;
-	margin-top: 14px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 17px;
+  margin-top: 14px;
 }
 
 .bubble {
-	position: absolute;
-	z-index:2;
-	margin-left: 14px;
-	margin-top: 16px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 14px;
+  margin-top: 16px;
 }
 
 .star {
-	position: absolute;
-	z-index:2;
-	margin-left: 13px;
-	margin-top: 14px;
+  position: absolute;
+  z-index: 2;
+  margin-left: 13px;
+  margin-top: 14px;
 }
 
 .ellipse {
-	float: left;
+  float: left;
 }
 
 .text {
-	color: #666d89;
-	float: right;
-	clear: both;
+  color: #666d89;
+  float: right;
+  clear: both;
 }
 
 .text h2 {
-font-size: 18px;
-line-height: 18px;
-color: #666d89;
-font-family: "Lato";
-font-weight: 900;
-text-align: left;
-overflow: hidden;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-family: "Lato";
+  font-weight: 900;
+  text-align: left;
+  overflow: hidden;
 }
 
-
 .text p {
-margin-top: 11px;
-width: 220px;
-height: 49px;
-font-size: 12px;
-line-height: 21px;
-color: #767e9e;
-font-family: "Lato";
-font-weight: thin;
-font-style: italic;
-text-align: justify;
+  margin-top: 11px;
+  width: 220px;
+  height: 49px;
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  font-family: "Lato";
+  font-weight: thin;
+  font-style: italic;
+  text-align: justify;
 }
 
 .servises-bottom {
-margin-top: 188px;
-width: 1020px;
-height: 7px;
-background-color: #ffffff;
+  margin-top: 188px;
+  width: 1020px;
+  height: 7px;
+  background-color: #ffffff;
 }
 
 .FeelLike {
-	margin-left: 2px;
+  margin-left: 2px;
 }
 
 .LoveIs {
-	margin-left: 2px;
+  margin-left: 2px;
 }
 
 .down {
-	margin-top: 0.5%;
+  margin-top: 0.5%;
 }
-
