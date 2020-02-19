@@ -124,9 +124,7 @@ span.point:after {
   margin-top: 284px;
   margin-left: 39px;
   border-radius: 100px;
-  /* Радиус скругления */
   border: 3px solid rgb(0, 0, 0, 0.0);
-  /* Параметры рамки */
 }
 
 .right {
@@ -134,18 +132,14 @@ span.point:after {
   margin-right: 37px;
   margin-top: 284px;
   border-radius: 100px;
-  /* Радиус скругления */
   border: 3px solid rgb(0, 0, 0, 0.0);
-  /* Параметры рамки */
 }
 
 .left:hover,
 .right:hover {
   cursor: pointer;
   border-radius: 100px;
-  /* Радиус скругления */
   border: 3px solid #dbdc7e;
-  /* Параметры рамки */
   box-shadow: 0 0 7px #ccce3c;
 }
 
