@@ -329,7 +329,7 @@ span.point:after {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 19px;
-  grid-row-gap: 46px;
+  grid-row-gap: 45px;
   grid-template-rows: 1fr 1fr;
 }
 
