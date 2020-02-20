@@ -288,6 +288,10 @@ span.point:after {
   padding-left: 2px;
 }
 
+.servises {
+  background-color: #f2f2f2;
+}
+
 .title {
   font-size: 15px;
   line-height: 18px;
