@@ -324,7 +324,7 @@ span.point:after {
   font-weight: bold;
   font-style: normal;
   text-align: left;
-  padding-top: 68px;
+  padding-top: 69px;
   margin-left: 40px;
 }
 
@@ -340,7 +340,7 @@ span.point:after {
   text-align: justify;
   overflow: hidden;
   margin-left: 40px;
-  margin-top: 28px;
+  margin-top: 27px;
 }
 
 .container {
