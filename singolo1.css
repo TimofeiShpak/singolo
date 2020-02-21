@@ -31,10 +31,20 @@
   padding: 0;
 }
 
+.header-wrapper,
+.slider-wrapper,
+.servises-wrapper {
+  width: 100%;
+}
+
+.header-wrapper {
+  background-color: #2d303a;
+}
+
 .header {
-  margin: -1px 0 0 0;
-  padding: 1px 0 0 0;
-  width: 1020px;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
   height: 89px;
   background-color: #2d303a;
 }
@@ -52,15 +62,14 @@
   font-weight: bold;
   font-style: normal;
   text-align: left;
-  padding-top: 40px;
+  padding-top: 41px;
   padding-left: 40px;
-  margin-top: 1px;
   letter-spacing: -0.09em;
 }
 
 .menu-bar {
   background-color: #2d303a;
-  margin-right: 27px;
+  margin-right: 26px;
   font-size: 12px;
   line-height: 6px;
   font-family: "Lato";
@@ -81,6 +90,7 @@ ul.menu li {
   font-stretch: inherit;
   font-weight: bold;
   font-style: normal;
+  letter-spacing: -0.008em;
 }
 
 ul.menu li:hover {
@@ -94,27 +104,32 @@ ul.menu li:hover {
 
 .header-bottom {
   position: absolute;
-  width: 1020px;
+  width: 100%;
   height: 6px;
   background-color: #323746;
-  margin-top: 42px;
   z-index: 10;
 }
 
 span.point:after {
   content: '\00B7';
-  padding-right: 12px;
+  padding-right: 13px;
   color: #494e62;
 }
 
+.slider-wrapper {
+  background-color: #f06c64;
+}
+
 .slider {
-  width: 1020px;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
   height: 600px;
   background-color: #f06c64;
 }
 
 .slider-bottom {
-  width: 1020px;
+  width: 100%;
   height: 6px;
   background-color: #ea676b;
 }
@@ -288,10 +303,17 @@ span.point:after {
   padding-left: 2px;
 }
 
+.servises-wrapper {
+  background-color: #f2f2f2;
+}
+
 .servises {
   background-color: #f2f2f2;
   width: 1020px;
   height: 494px;
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 .title {
@@ -344,14 +366,14 @@ span.point:after {
 .pen {
   position: absolute;
   z-index: 2;
-  margin-left: 13px;
-  margin-top: 14px;
+  margin-left: 14px;
+  margin-top: 15px;
 }
 
 .bulb {
   position: absolute;
   z-index: 2;
-  margin-left: 17px;
+  margin-left: 18px;
   margin-top: 14px;
 }
 
@@ -359,13 +381,13 @@ span.point:after {
   position: absolute;
   z-index: 2;
   margin-left: 13px;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 
 .phone {
   position: absolute;
   z-index: 2;
-  margin-left: 17px;
+  margin-left: 18px;
   margin-top: 14px;
 }
 
@@ -373,14 +395,14 @@ span.point:after {
   position: absolute;
   z-index: 2;
   margin-left: 14px;
-  margin-top: 16px;
+  margin-top: 18px;
 }
 
 .star {
   position: absolute;
   z-index: 2;
   margin-left: 13px;
-  margin-top: 14px;
+  margin-top: 15px;
 }
 
 .ellipse {
@@ -417,7 +439,7 @@ span.point:after {
 }
 
 .servises-bottom {
-  width: 1020px;
+  width: 100%;
   height: 7px;
   background-color: #ffffff;
 }
