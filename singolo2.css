@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("assets/fonts/Lato-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", "Arial", sans-serif;
+}
+
+.portfolio {
+  width: 100%;
+  background-color: #2D303A;
+  padding-top: 60px;
+  border-bottom: 6px solid #323746;
+  ;
+}
+
+.portfolio-wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding-bottom: 67px;
+}
+
+.portfolio h2 {
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  text-align: left;
+  font-weight: 900;
+}
+
+.portfolio p {
+  width: 940px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 27px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.portfolio-buttons {
+  margin-top: 10px;
+  margin-bottom: 19px;
+  margin-left: 1px;
+}
+
+.portfolio_button {
+  border: 1px solid #666D89;
+  border-radius: 5px;
+  color: #767e9e;
+  margin-right: 7px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.portfolio_button.selected {
+  color: #dedede;
+  border-color: #dedede;
+  padding: 0 7px;
+}
+
+.portfolio_button.second {
+  letter-spacing: -0.01em;
+}
+
+.portfolio_button.third {
+  padding: 0 7px;
+}
+
+.portfolio_button.forth {
+  padding-left: 5px;
+  padding-right: 7px;
+}
+
+.portfolio_button:hover {
+  color: #dedede;
+  border-color: #dedede;
+  cursor: pointer;
+}
+
+.portfolio-container {
+  width: 940px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  overflow: hidden;
+}
+
+.portfolio-container_size {
+  height: 601px;
+  overflow: hidden;
+}
+
+.about-us {
+  width: 100%;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.about-us_wriper {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+.about-us_wriper h2 {
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  text-align: left;
+}
+
+.about-us_wriper p {
+  margin-top: 27px;
+  margin-bottom: 47px;
+  height: 57px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  text-align: justify;
+  font-weight: 400;
+  letter-spacing: -0.012em;
+}
+
+.about-us_people h3 {
+  white-space: pre;
+  margin-top: 14px;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  font-weight: 900;
+  text-align: left;
+  letter-spacing: -0.01em;
+}
+
+.about-us_people p {
+  width: 300px;
+  margin-top: 11px !important;
+  margin-bottom: 9px !important;
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.people_first {
+  letter-spacing: -0.005em !important;
+}
+
+.people_second {
+  letter-spacing: 0 !important;
+}
+
+.people_third {
+  letter-spacing: 0 !important;
+}
+
+.about-us_container {
+  grid-gap: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: grid;
+  padding-bottom: 62px;
+}
+
+.about-us_people.last {
+  margin-left: 1px;
+}
+
+.about-us_icon {
+  text-align: center;
+  margin-left: 1px;
+}
+
+.about-us_icon li {
+  display: inline-block;
+  margin-right: 8px;
+  float: left;
+}
+
+.about-us_icon li:hover {
+  opacity: 0.7;
+}
