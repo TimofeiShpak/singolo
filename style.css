@@ -592,6 +592,7 @@ button {
   color: #666d89;
   font-weight: 900;
   text-align: left;
+  overflow: hidden;
 }
 
 .about-us_people p {
