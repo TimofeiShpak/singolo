@@ -712,7 +712,7 @@ form {
 
 .forms input {
   padding-left: 15px;
-  width: 619px;
+  width: 604px;
   height: 38px;
   border-radius: 5px;
   border: none;
@@ -727,7 +727,8 @@ form {
 }
 
 .forms textarea {
-  width: 619px;
+  padding-left: 15px;
+  width: 604px;
   height: 202px;
   resize: none;
   border-radius: 5px;
@@ -994,10 +995,10 @@ a {
 
 @keyframes left{
   from {
-      left: 0;
+      left: 20.5%;
   }
   to {
-      left: -100%;
+      left: -79.5%;
   }
 }
 
