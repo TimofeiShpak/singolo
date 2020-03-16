@@ -874,7 +874,6 @@ a {
 .slide{
   display: none;
   position: relative;
-  animation: 0.5s ease-in-out;
 }
 
 .active-slide{
