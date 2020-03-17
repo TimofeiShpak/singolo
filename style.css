@@ -82,6 +82,7 @@
 
 ul.menu {
   float: right;
+
 }
 
 ul.menu li {
@@ -131,7 +132,7 @@ span.point:after {
   max-width: 1020px;
   margin: 0 auto;
   height: 537px;
-  padding-top: 147px;
+  padding-top: 146px;
   padding-bottom: 6px;
 }
 
@@ -140,18 +141,16 @@ span.point:after {
 }
 
 .left {
-  position: absolute;
-  left: 256px;
+  height: 100%;
   margin-top: 226px;
-  margin-left: 33px;
+  margin-left: 39px;
   border-radius: 100px;
   border: 3px solid rgb(0, 0, 0, 0.0);
 }
 
 .right {
-  position: absolute;
-  left: 313px;
-  margin-left: 899px;
+  margin-left: 52px;
+  height: 100%;
   margin-top: 228px;
   border-radius: 100px;
   border: 3px solid rgb(0, 0, 0, 0.0);
@@ -167,7 +166,7 @@ span.point:after {
 
 .horizontal {
   padding-top: 121px;
-  margin-left: 71px;
+  margin-left: 72px;
 }
 
 .base {
@@ -238,7 +237,7 @@ span.point:after {
 }
 
 .vertical {
-  padding-left: 50px;
+  padding-left: 49px;
 }
 
 .baseV {
@@ -661,10 +660,9 @@ button {
 }
 
 .quote-wrapper {
-  width: 1020px;
+  width: 937px;
   height: 648px;
   margin: 0 auto;
-  padding-left: 83px;
 }
 
 .quote-wrapper h2 {
@@ -711,7 +709,7 @@ form {
 }
 
 .forms input {
-  padding-left: 15px;
+  padding-left: 13px;
   width: 604px;
   height: 38px;
   border-radius: 5px;
@@ -727,7 +725,7 @@ form {
 }
 
 .forms textarea {
-  padding-left: 15px;
+  padding-left: 13px;
   width: 604px;
   height: 202px;
   resize: none;
@@ -819,14 +817,13 @@ footer {
 }
 
 .footer-wrapper {
+  width: 964px;
   margin: 0 auto;
-  width: 1020px;
-  padding-left: 56px;
 }
 
 .footer-icon {
   margin-top: -24px;
-  margin-right: 60px;
+  margin-right: 4px;
   float: right;
   list-style: none;
 }
@@ -881,8 +878,6 @@ a {
 }
 
 .first-slide{
-  position: absolute;
-  left: 311px;
 }
 
 .first-slide-container{
@@ -890,14 +885,19 @@ a {
 }
 
 .second-slide{
-  position: absolute;
-  left: 450px;
+  padding-left: 170px;
+  width: 678px;
 }
 
 .next {
   display: block;
   position : absolute;
   width: 100%;
+}
+
+.phones{
+  display: flex;
+  justify-content: center;
 }
 
 .to-left{
