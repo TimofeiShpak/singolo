@@ -13,7 +13,6 @@ function currentPictureIndex(i){
 }
 
 window.addEventListener('scroll', function() {
-    console.log(valueScroll = pageYOffset);
     if(valueScroll<600){
         document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
         firstNav.classList.add('selected-nav');
@@ -95,7 +94,6 @@ function hideItem(direction){
     isNotAnimation=false;
     items[currentItem].classList.add(direction); 
     items[currentItem].addEventListener('animationend',function(){
-        document.querySelector(".right").classList.add('marginLeft');
         this.classList.remove('active-slide',direction); 
     });
 }
@@ -103,7 +101,6 @@ function hideItem(direction){
 function showItem(direction){
     items[currentItem].classList.add('next',direction); 
     items[currentItem].addEventListener('animationend',function(){
-        document.querySelector(".right").classList.remove('marginLeft');
         this.classList.remove('next',direction); 
         this.classList.add('active-slide');
         isNotAnimation=true;

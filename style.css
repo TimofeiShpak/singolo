@@ -896,13 +896,7 @@ a {
 
 .next {
   display: block;
-  position : absolute;
-  width: 100%;
   animation: 0.4s ease-in-out;
-}
-
-.marginLeft{
-  margin-left: 900px !important;
 }
 
 .phones{
@@ -1060,7 +1054,7 @@ a {
 
 @keyframes left{
   from {
-      left: var(--value);
+      left: 0;
   }
   to {
       left: -100%;
@@ -1072,7 +1066,7 @@ a {
       left: 100%;
   }
   to {
-      left: var(--value);
+      left: 0;
   }
 }
 
