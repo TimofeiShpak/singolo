@@ -6,10 +6,35 @@ let isNotAnimation = true;
 let checkPhoneV = true;
 let checkPhoneH = true;
 let scrollToElement;
+let valueScroll =0;
 
 function currentPictureIndex(i){
     currentPicture = (i + pictures.length) % pictures.length;
 }
+
+window.addEventListener('scroll', function() {
+    console.log(valueScroll = pageYOffset);
+    if(valueScroll<600){
+        document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
+        firstNav.classList.add('selected-nav');
+    }
+    if(valueScroll>=600 && valueScroll<1100){
+        document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
+        secondNav.classList.add('selected-nav');
+    }
+    if(valueScroll>=1100 && valueScroll<1972){
+        document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
+        thirdNav.classList.add('selected-nav');
+    }
+    if(valueScroll>1972 && valueScroll<2707){
+        document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
+        fourthNav.classList.add('selected-nav');
+    }
+    if(valueScroll>2707){
+        document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
+        fifthNav.classList.add('selected-nav');
+    }
+  });
 
 document.querySelector(".menu").addEventListener('click', (event) => {
     if(event.target.className !== 'menu'){
@@ -70,6 +95,7 @@ function hideItem(direction){
     isNotAnimation=false;
     items[currentItem].classList.add(direction); 
     items[currentItem].addEventListener('animationend',function(){
+        document.querySelector(".right").classList.add('marginLeft');
         this.classList.remove('active-slide',direction); 
     });
 }
@@ -77,6 +103,7 @@ function hideItem(direction){
 function showItem(direction){
     items[currentItem].classList.add('next',direction); 
     items[currentItem].addEventListener('animationend',function(){
+        document.querySelector(".right").classList.remove('marginLeft');
         this.classList.remove('next',direction); 
         this.classList.add('active-slide');
         isNotAnimation=true;
@@ -90,9 +117,11 @@ function previousItem(i){
 }
 
 function nextItem(i){
+   
     hideItem('to-left');
     currentItemIndex(i+1);
     showItem('from-right');
+    
 }
 
 document.querySelector(".left").addEventListener('click', (event)=>{
@@ -185,6 +214,10 @@ function addButtonOK(){
     let btnOk = document.querySelector(".button-OK");
     btnOk.addEventListener('click', ()=>{
         document.querySelector(".modal").classList.add('hide');
+        firstInput.value="";
+        secondInput.value="";
+        thirdInput.value="";
+        firstTextarea.value="";
     });
 }
 
@@ -199,4 +232,6 @@ document.querySelector(".button-last").addEventListener('click', (e)=>{
     document.querySelector(".modal").classList.remove('hide');
     }
 });
+
+
 
