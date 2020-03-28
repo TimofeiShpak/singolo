@@ -345,7 +345,6 @@ window.addEventListener('resize', function() {
      document.querySelector('.open-menu').classList.add('hide');
       document.querySelector('.burger-menu').classList.remove('rotate');
       document.querySelector('.singolo-title').classList.remove('singolo-title-left');
-      checkMenu=0;
 });
 
 
