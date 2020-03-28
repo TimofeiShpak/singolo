@@ -37,8 +37,8 @@
 body {
   --valueL1: -800%;
   --valueR1: 800%;
-  --valueL: -800%;
-  --valueR: 800%;
+  --valueL: -200%;
+  --valueR: 200%;
   --valueLB: 0;
 }
 
@@ -963,6 +963,9 @@ a {
 @media screen and (max-width: 1019.9px) {
 body {
   --valueLB: 70%;
+  --valueL: -800%;
+  --valueR: 800%;
+  --valueLB: 70%;
 }
 
 }
@@ -1447,7 +1450,7 @@ padding-top: 0;
   padding-left: 71px;
     position: fixed;
   padding-top: 232px;
-    height: 128vh;
+    height: 100vh;
       width: 278px;
     list-style: none;
     z-index: 25;
