@@ -17,7 +17,6 @@ function currentPictureIndex(i){
 
 if(document.documentElement.clientWidth<1020){
         document.querySelector('.about').classList.remove('about-bottom');
-        checkScroll = 71;
     }
 
     if(document.documentElement.clientWidth>=1020){
@@ -25,6 +24,7 @@ if(document.documentElement.clientWidth<1020){
     }
 
     if(document.documentElement.clientWidth<768){
+        checkScroll = 71;
         document.querySelector('.menu-bar').classList.add('hide');
         document.querySelector('.header-bottom').classList.add('hide');
         document.querySelector('.portfolio').classList.remove('portfolio-bottom');
@@ -33,6 +33,7 @@ if(document.documentElement.clientWidth<1020){
     }
 
     if(document.documentElement.clientWidth>=768){
+        checkScroll = 95;
         document.querySelector('.menu-bar').classList.remove('hide');
         document.querySelector('.header-bottom').classList.remove('hide');
         document.querySelector('.portfolio').classList.add('portfolio-bottom');
@@ -113,11 +114,15 @@ document.querySelector(".menu").addEventListener('click', (event) => {
 
 document.querySelector(".menu-small").addEventListener('click', (event) => {
     if(event.target.className !== 'menu-small'){
+    document.querySelector('.burger-menu').classList.remove('rotate');
+    document.querySelector('.singolo-title').classList.remove('singolo-title-left');
+    document.querySelector('.open-menu').classList.add('hide');
+    checkMenu=0;
     document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
     event.target.classList.add('selected-nav');
     scrollToElement = event.target.innerText.toLowerCase()+"";
     window.scrollTo({
-        top: document.querySelector(`.${scrollToElement}`).offsetTop-71,
+        top: document.querySelector(`.${scrollToElement}`).offsetTop-68,
         behavior: "smooth"
     });
     }
