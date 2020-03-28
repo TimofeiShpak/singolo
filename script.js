@@ -17,7 +17,6 @@ function currentPictureIndex(i){
 
 if(document.documentElement.clientWidth<1020){
         document.querySelector('.about').classList.remove('about-bottom');
-        checkScroll = 71;
     }
 
     if(document.documentElement.clientWidth>=1020){
@@ -25,6 +24,7 @@ if(document.documentElement.clientWidth<1020){
     }
 
     if(document.documentElement.clientWidth<768){
+        checkScroll = 71;
         document.querySelector('.menu-bar').classList.add('hide');
         document.querySelector('.header-bottom').classList.add('hide');
         document.querySelector('.portfolio').classList.remove('portfolio-bottom');
@@ -33,6 +33,7 @@ if(document.documentElement.clientWidth<1020){
     }
 
     if(document.documentElement.clientWidth>=768){
+        checkScroll = 95;
         document.querySelector('.menu-bar').classList.remove('hide');
         document.querySelector('.header-bottom').classList.remove('hide');
         document.querySelector('.portfolio').classList.add('portfolio-bottom');
@@ -43,7 +44,6 @@ if(document.documentElement.clientWidth<1020){
 window.addEventListener('resize', function() {
     if(document.documentElement.clientWidth<1020){
         document.querySelector('.about').classList.remove('about-bottom');
-        checkScroll = 71;
     }
 
     if(document.documentElement.clientWidth>=1020){
@@ -51,6 +51,7 @@ window.addEventListener('resize', function() {
     }
 
     if(document.documentElement.clientWidth<768){
+        checkScroll = 71;
         document.querySelector('.menu-bar').classList.add('hide');
         document.querySelector('.header-bottom').classList.add('hide');
         document.querySelector('.portfolio').classList.remove('portfolio-bottom');
@@ -59,6 +60,7 @@ window.addEventListener('resize', function() {
     }
 
     if(document.documentElement.clientWidth>=768){
+        checkScroll = 95;
         document.querySelector('.menu-bar').classList.remove('hide');
         document.querySelector('.header-bottom').classList.remove('hide');
         document.querySelector('.portfolio').classList.add('portfolio-bottom');
@@ -339,6 +341,11 @@ document.querySelector('.burger-menu').addEventListener('click', ()=>{
     }
 });
 
+window.addEventListener('resize', function() {
+     document.querySelector('.open-menu').classList.add('hide');
+      document.querySelector('.burger-menu').classList.remove('rotate');
+      document.querySelector('.singolo-title').classList.remove('singolo-title-left');
+});
 
 
 
