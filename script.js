@@ -113,11 +113,15 @@ document.querySelector(".menu").addEventListener('click', (event) => {
 
 document.querySelector(".menu-small").addEventListener('click', (event) => {
     if(event.target.className !== 'menu-small'){
+    document.querySelector('.burger-menu').classList.remove('rotate');
+    document.querySelector('.singolo-title').classList.remove('singolo-title-left');
+    document.querySelector('.open-menu').classList.add('hide');
+    checkMenu=0;
     document.querySelectorAll(".menu-nav").forEach(e => {e.classList.remove('selected-nav');});
     event.target.classList.add('selected-nav');
     scrollToElement = event.target.innerText.toLowerCase()+"";
     window.scrollTo({
-        top: document.querySelector(`.${scrollToElement}`).offsetTop-71,
+        top: document.querySelector(`.${scrollToElement}`).offsetTop-68,
         behavior: "smooth"
     });
     }
